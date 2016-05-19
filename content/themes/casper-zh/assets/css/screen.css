@@ -44,7 +44,7 @@ a:focus { outline: thin dotted; }
 a:active, a:hover { outline: 0; }
 h1 { font-size: 2em; margin: 0.67em 0; }
 abbr[title] { border-bottom: 1px dotted; }
-b, strong { font-weight: 700; }
+b, strong { font-weight: 600; }
 dfn { font-style: italic; }
 hr {
    -moz-box-sizing: content-box;
@@ -188,6 +188,7 @@ body {
     font-family: 'PingHei', 'PingFang SC',"Microsoft YaHei", 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
     letter-spacing: 0.01rem;
     font-size: 1.8rem;
+    font-weight: 200;
     line-height: 1.75em;
     color: #3A4145;
     -webkit-font-feature-settings: 'kern' 1;
@@ -326,7 +327,7 @@ blockquote small {
 blockquote small:before { content: "\2014 \00A0"; }
 
 blockquote cite {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 blockquote cite a { font-weight: normal; }
@@ -376,7 +377,7 @@ kbd {
     color: #666;
     text-shadow: #FFF 0 1px 0;
     font-size: 0.9em;
-    font-weight: 700;
+    font-weight: 600;
     background: #F4F4F4;
     border-radius: 4px;
     box-shadow:
@@ -868,7 +869,7 @@ body.nav-opened .nav {
     margin: 10px 0 10px 0;
     font-size: 5rem;
     letter-spacing: -1px;
-    font-weight: 700;
+    font-weight: 600;
     font-family: inherit;
     color: #fff;
 }
@@ -1006,7 +1007,7 @@ body:not(.post-template) .post-title {
 
 .user-name {
     display: block;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .user-bio {
@@ -1026,7 +1027,7 @@ body:not(.post-template) .post-title {
 
 .publish-heading {
     display: block;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .publish-date {
