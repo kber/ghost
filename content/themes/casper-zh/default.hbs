@@ -15,6 +15,7 @@
     <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
 
     {{! Styles'n'Scripts }}
+    <link rel="stylesheet" type="text/css" href="{{asset "css/prism.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
 
     {{! Ghost outputs important style and meta data with this tag }}
@@ -29,8 +30,7 @@
         {{{body}}}
 
         <footer class="site-footer clearfix">
-            <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
-            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a> &amp; <a href="http://www.ghostchina.com">GhostChina</a></section>
+            <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}} 版权所有</section>
         </footer>
 
     </div>
@@ -41,6 +41,7 @@
     <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
     <script src="//cdn.bootcss.com/fitvids/1.1.0/jquery.fitvids.min.js"></script>
     {{! The main JavaScript file for Casper }}
+    <script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
     <script src="{{asset "js/index.js"}}"></script>
 
 </body>
