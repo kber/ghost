@@ -345,6 +345,7 @@ mark {
 code, tt {
     padding: 1px 3px;
     font-family: Consolas, "Liberation Mono", Courier, monospace;
+    font-weight: 300;
     font-size: 0.85em;
     white-space: pre-wrap;
     border: #E3EDF3 1px solid;
