@@ -1153,7 +1153,7 @@ body:not(.post-template) .post-title {
 
 /* Create some space to the right for the share links */
 .post-footer .author {
-    margin-right: 260px;
+    float: right;
 }
 
 .post-footer h4 a {
@@ -1163,35 +1163,6 @@ body:not(.post-template) .post-title {
 
 .post-footer h4 a:hover {
     text-decoration: underline;
-}
-
-/* Drop the share links in the space to the right.
-   Doing it like this means it's easier for the author bio
-   to be flexible at smaller screen sizes while the share
-   links remain at a fixed width the whole time */
-.post-footer .share {
-    position: absolute;
-    top: 6rem;
-    right: 0;
-    width: 230px;
-}
-
-.post-footer .share a {
-    font-size: 1.8rem;
-    display: inline-block;
-    margin: 1rem 1.6rem 1.6rem 0;
-    color: #BBC7CC;
-    text-decoration: none;
-}
-
-.post-footer .share .icon-twitter:hover {
-    color: #55acee;
-}
-.post-footer .share .icon-facebook:hover {
-    color: #3b5998;
-}
-.post-footer .share .icon-google-plus:hover {
-    color: #dd4b39;
 }
 
 
