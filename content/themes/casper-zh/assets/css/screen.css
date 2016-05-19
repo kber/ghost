@@ -953,6 +953,7 @@ body:not(.post-template) .post-title {
 
 .post-title a {
     text-decoration: none;
+    color: #333;
 }
 
 .post-excerpt p {
