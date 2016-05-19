@@ -250,12 +250,13 @@ h6 {
 }
 
 a {
-    color: #4A4A4A;
+    color: #258BCD;
     transition: color 0.3s ease;
+    text-decoration: none;
 }
 
 a:hover {
-    color: #111;
+    color: #1578B9;
 }
 
 p, ul, ol, dl {
