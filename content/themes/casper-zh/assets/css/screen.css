@@ -1161,9 +1161,8 @@ body:not(.post-template) .post-title {
     color: #111;
 }
 
-/* Create some space to the right for the share links */
 .post-footer .author {
-    float: right;
+    float: left;
 }
 
 .post-footer h4 a {
