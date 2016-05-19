@@ -220,27 +220,33 @@ h1 {
     font-size: 4.6rem;
     letter-spacing: -2px;
     text-indent: -3px;
+    font-weight: 600;
 }
 
 h2 {
     font-size: 3.2rem;
     letter-spacing: -1px;
+    font-weight: 500;
 }
 
 h3 {
     font-size: 2.6rem;
+    font-weight: 400;
 }
 
 h4 {
     font-size: 2.1rem;
+    font-weight: 300;
 }
 
 h5 {
     font-size: 1.6rem;
+    font-weight: 200;
 }
 
 h6 {
     font-size: 1.6rem;
+    font-weight: 200;
 }
 
 a {
