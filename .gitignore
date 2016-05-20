@@ -9,3 +9,6 @@ node_modules
 config.js
 content/data/ghost.db
 content/data/ghost-dev.db
+content/themes/Yasuko/dev
+content/themes/Yasuko/node_modules
+content/themes/Yasuko/build

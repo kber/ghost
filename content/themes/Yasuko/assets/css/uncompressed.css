@@ -897,7 +897,6 @@ h1
 
     box-sizing: border-box;
     width: 100%;
-    max-height: 52rem;
     padding: 2rem 0;
 
     text-align: center;
@@ -1037,8 +1036,6 @@ h1
     bottom: 5rem;
     left: 50%;
 
-    display: none;
-
     height: 2rem;
 }
 .arrow_down a
@@ -1095,6 +1092,11 @@ h1
 .tag-template .back-home:active
 {
     background: rgba(0, 0, 0, .1);
+}
+
+.tag-template #header .arrow_down
+{
+    display: none;
 }
 
 #main
@@ -1887,7 +1889,7 @@ a.btn-post-excerpt
 
 .home-info-container
 {
-    margin-top: 16rem;
+    margin-top: 36rem;
 }
 .home-info-container h2,
 .home-info-container h4
@@ -2975,11 +2977,6 @@ Copyright (c) 2014 Daniel Eden
     {
         max-height: 100%;
     }
-    .home-info-container
-    {
-        max-width: 80%;
-        margin: 16rem auto;
-    }
     .read-next-story .post
     {
         padding: 6rem 3rem;
@@ -3071,10 +3068,6 @@ Copyright (c) 2014 Daniel Eden
     .home-template #main
     {
         margin: 0rem auto;
-    }
-    .home-template #header
-    {
-        height: 40%;
     }
     .archive-template #main
     {
@@ -3170,7 +3163,7 @@ Copyright (c) 2014 Daniel Eden
     }
     .home-info-container
     {
-        margin-top: 6rem;
+        margin-top: 26rem;
     }
     .home-info-container h2,
     .home-info-container h4
