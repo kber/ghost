@@ -1886,16 +1886,9 @@ a.btn-post-excerpt
 .home-info-container h4
 {
     font-family: 'Exo', '-apple-system', 'Open Sans', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Hiragino Sans GB', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
-    font-weight: lighter;
+    font-weight: lighter; 
 
     color: #fff;
-    text-shadow: 0 1px 1px #595959;
-}
-.home-info-container h2:hover,
-.home-info-container h4:hover
-{
-    color: #efefef;
-    text-shadow: 0 1px 1px #000;
 }
 .home-info-container h2
 {
