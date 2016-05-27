@@ -2603,6 +2603,11 @@ Copyright (c) 2014 Daniel Eden
     border-left: rgba(0, 0, 100, .04) 1px solid;
 }
 
+#cnzz_stat_icon_1259253241
+{
+    display: none;
+}
+
 /* 载入iconfont字体 */
 .iconfont
 {
